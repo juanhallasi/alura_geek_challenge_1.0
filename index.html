@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/Logo.svg" alt="Alura Geek Logo">
+        </div>
+    </header>
+    <main>
+        <section class="products-section">
+            <h1>Mis Productos</h1>
+            <div class="product-container">
+                <div class="product-item">
+                    <img src="assets/ae1.jpg" alt="Skill">
+                    <h2>AESPA - MY WORLD</h2>
+                    <p>$ 60,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ive.bmp" alt="Skill">
+                    <h2>IVE SWITCH</h2>
+                    <p>$ 60,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ive ive1.png" alt="Skill">
+                    <h2>IVE I HAVE</h2>
+                    <p>$ 60,00</p>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-item">
+                    <img src="assets/tienda.jpg" alt="Skill">
+                    <h2>IVE - SEASONS GREETINGS A Fairy's Wish 2024</h2>
+                    <p>$ 60,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/tiendadaDa.jpg" alt="Skill">
+                    <h2>FROMIS_9 - SUPERSONIC</h2>
+                    <p>$ 60,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/dc.jpg" alt="Skill">
+                    <h2>
+                        DREAMCATCHER Special - Summer Holiday</h2>
+                    <p>$ 60,00</p>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-item">
+                    <img src="assets/dc1.jpg" alt="Skill">
+                    <h2>
+                        DREAMCATCHER - Apocalypse: Save us</h2>
+                    <p>$ 60,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ae2.jpg" alt="Skill">
+                    <h2>AESPA - WHIPLASH</h2>
+                    <p>$ 60,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ever1.jpg" alt="Skill">
+                    <h2>EVERGLOW - ALL MY GIRLS</h2>
+                    <p>$ 60,00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección para agregar producto -->
+        <section class="add-product-section">
+            <h1>Agregar Producto</h1>
+            <form class="add-product-form">
+                <label for="productName">Nombre del Producto:</label>
+                <input type="text" id="productName" name="productName" required>
+
+                <label for="productPrice">Precio:</label>
+                <input type="number" id="productPrice" name="productPrice" step="0.01" required>
+
+                <label for="productImage">URL de la Imagen:</label>
+                <input type="url" id="productImage" name="productImage" required>
+
+                <div class="button-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <img src="assets/Logo.svg" alt="Logo del Footer">
+            <p>Desarrollado por Nadia Dev diseñado por alura latam</p>
+        </div>
+    </footer>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
